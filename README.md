@@ -8,7 +8,7 @@ The script for doing this is the one named **argtotexttrees.txt**
 
 usage :   
 
-argtotexttrees.py corpora output  
+    > argtotexttrees.py corpora output  
 
 where :
 - **corpora** is the glob pattern / or list of xml files you want to add to the output
