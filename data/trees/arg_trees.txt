@@ -1,0 +1,1152 @@
+t # b001
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 reb
+e 1 0 sup
+e 2 0 und
+e 3 2 add
+t # b002
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 2 sup
+e 3 2 reb
+e 4 3 und
+t # b003
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 reb
+e 3 0 reb
+e 4 3 und
+t # b004
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 reb
+e 1 2 reb
+e 3 2 sup
+e 4 3 sup
+t # b005
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 und
+e 3 2 und
+e 4 3 sup
+t # b006
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+e 4 3 und
+t # b007
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 1 sup
+e 1 2 sup
+e 3 2 reb
+e 4 3 reb
+t # b008
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 reb
+e 1 0 reb
+e 2 1 sup
+e 3 2 add
+t # b009
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+t # b010
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 2 sup
+e 4 0 sup
+t # b011
+v 0 CC
+v 1 _
+v 2 _
+e 1 0 reb
+e 2 1 und
+t # b012
+v 0 _
+v 1 _
+v 2 _
+v 3 CC
+e 0 3 reb
+e 1 3 reb
+e 2 1 und
+t # b013
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+e 4 3 add
+t # b014
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 0 sup
+e 3 0 sup
+e 4 0 sup
+t # b015
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+e 4 3 add
+t # b016
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 2 sup
+e 1 2 sup
+e 2 4 reb
+e 3 2 und
+t # b017
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 0 reb
+e 3 0 sup
+e 4 0 sup
+t # b018
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 2 reb
+e 1 2 sup
+e 2 4 sup
+e 3 2 add
+t # b019
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 1 sup
+e 1 5 reb
+e 2 3 sup
+e 3 5 sup
+e 4 5 sup
+t # b020
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 5 sup
+e 1 5 reb
+e 2 1 add
+e 3 5 sup
+e 4 5 sup
+t # b021
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 sup
+e 2 3 sup
+e 3 0 sup
+t # b022
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 2 und
+e 2 0 sup
+e 3 0 sup
+e 4 0 sup
+t # b023
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 2 sup
+e 3 4 sup
+e 4 2 sup
+t # b024
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+e 4 3 sup
+t # b025
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+e 0 2 sup
+e 1 2 sup
+e 3 2 sup
+e 4 2 sup
+e 5 2 sup
+t # b026
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+e 4 0 sup
+e 5 0 sup
+t # b027
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 reb
+e 3 2 reb
+e 4 0 sup
+t # b028
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 2 sup
+e 4 2 sup
+t # b029
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 reb
+e 3 1 und
+e 4 0 sup
+t # b030
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+t # b031
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+t # b032
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+t # b033
+v 0 CC
+v 1 _
+v 2 _
+e 1 0 sup
+e 2 0 sup
+t # b034
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+e 4 3 reb
+t # b035
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 sup
+e 1 4 sup
+e 2 4 sup
+e 3 4 sup
+t # b036
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 1 sup
+e 3 2 exa
+e 4 0 reb
+e 5 4 und
+t # b037
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+e 4 3 und
+t # b038
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 2 sup
+e 2 0 sup
+e 3 0 sup
+e 4 0 reb
+e 5 4 und
+t # b039
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 1 sup
+e 3 0 sup
+e 4 0 reb
+e 5 4 und
+t # b040
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 1 sup
+e 3 0 sup
+e 4 0 reb
+e 5 4 reb
+t # b041
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+e 4 0 reb
+e 5 4 sup
+t # b042
+v 0 _
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 0 3 reb
+e 1 0 und
+e 2 3 sup
+e 4 3 sup
+e 5 4 exa
+t # b044
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 reb
+e 3 2 sup
+e 4 2 sup
+t # b045
+v 0 _
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+e 0 3 sup
+e 1 3 sup
+e 2 1 sup
+e 4 3 reb
+t # b046
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 1 sup
+e 1 4 sup
+e 2 1 und
+e 3 2 und
+t # b047
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 sup
+e 1 0 add
+e 2 0 und
+e 3 4 reb
+t # b048
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 sup
+e 1 2 sup
+e 2 4 reb
+e 3 2 und
+t # b049
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 reb
+e 1 2 sup
+e 2 4 sup
+e 3 4 sup
+t # b050
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 2 sup
+e 1 2 sup
+e 2 4 sup
+e 3 4 reb
+t # b051
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 5 reb
+e 1 2 sup
+e 2 0 und
+e 3 5 sup
+e 4 5 sup
+t # b052
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 reb
+e 1 2 reb
+e 3 2 sup
+e 4 2 sup
+t # b053
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+e 0 4 reb
+e 1 0 und
+e 2 3 sup
+e 3 4 sup
+e 5 4 reb
+t # b054
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 1 sup
+e 1 5 sup
+e 2 3 sup
+e 3 1 sup
+e 4 1 und
+t # b055
+v 0 _
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 0 1 sup
+e 2 1 sup
+e 3 2 add
+e 4 1 reb
+e 5 4 und
+t # b056
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 5 sup
+e 1 5 sup
+e 2 5 reb
+e 3 2 und
+e 4 3 sup
+t # b057
+v 0 _
+v 1 _
+v 2 _
+v 3 CC
+e 0 3 reb
+e 1 3 sup
+e 2 3 sup
+t # b058
+v 0 _
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 0 1 sup
+e 2 1 reb
+e 3 2 und
+e 4 1 sup
+e 5 4 sup
+e 6 1 sup
+t # b059
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 sup
+e 1 4 sup
+e 2 4 reb
+e 3 2 und
+t # b060
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 reb
+e 1 0 und
+e 2 4 sup
+e 3 2 sup
+t # b061
+v 0 CC
+v 1 _
+v 2 _
+e 1 0 reb
+e 2 0 sup
+t # b062
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 0 sup
+e 3 2 sup
+e 4 3 add
+e 5 3 add
+t # b064
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 1 sup
+e 1 5 sup
+e 2 5 sup
+e 3 4 sup
+e 4 5 sup
+t # d01
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 add
+e 3 2 reb
+e 4 3 reb
+t # d02
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 exa
+e 3 0 reb
+e 4 3 und
+t # d03
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 2 und
+e 4 0 sup
+t # d04
+v 0 _
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 0 1 sup
+e 2 0 reb
+e 3 2 sup
+e 4 1 sup
+t # d05
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+e 4 3 reb
+t # d06
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 2 und
+e 4 3 und
+t # d07
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 exa
+e 3 1 reb
+e 4 0 sup
+t # d08
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 reb
+e 1 2 reb
+e 3 2 sup
+e 4 2 sup
+t # d09
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 exa
+e 3 1 und
+e 4 3 reb
+t # d10
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 add
+e 3 2 reb
+e 4 3 und
+t # d11
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 1 add
+e 3 0 reb
+e 4 0 sup
+t # d12
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 sup
+e 3 2 add
+e 4 1 und
+t # d13
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 0 add
+e 3 1 reb
+e 4 3 reb
+t # d14
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+e 4 3 exa
+t # d15
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 2 sup
+e 3 1 und
+e 4 2 sup
+t # d16
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 reb
+e 1 0 add
+e 3 2 sup
+e 4 3 sup
+t # d17
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 2 sup
+e 3 2 reb
+e 4 3 reb
+t # d18
+v 0 _
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 0 1 sup
+e 2 0 und
+e 3 2 und
+e 4 1 sup
+t # d19
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 0 exa
+e 3 0 reb
+e 4 3 und
+t # d20
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 sup
+e 3 2 add
+e 4 0 sup
+t # d21
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 0 exa
+e 3 0 und
+e 4 3 reb
+t # d22
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 0 add
+e 3 1 reb
+e 4 3 und
+t # d23
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 0 sup
+e 3 0 sup
+e 4 3 add
+t # k001
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 1 sup
+e 3 1 sup
+e 4 0 reb
+e 5 4 und
+t # k002
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+e 4 0 sup
+t # k003
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 0 add
+e 3 2 reb
+e 4 3 und
+t # k004
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+e 4 3 exa
+t # k006
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 reb
+e 1 0 und
+e 2 4 sup
+e 3 4 sup
+t # k007
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 2 sup
+e 4 0 reb
+t # k008
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 sup
+e 2 0 reb
+e 3 2 und
+t # k009
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 sup
+e 4 3 reb
+e 5 4 und
+t # k010
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 3 sup
+e 3 0 sup
+e 4 0 reb
+e 5 4 und
+t # k011
+v 0 _
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 0 3 reb
+e 1 3 sup
+e 2 1 sup
+e 4 3 sup
+e 5 4 sup
+e 6 3 sup
+e 7 6 sup
+e 8 3 sup
+e 9 8 sup
+t # k012
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+e 4 3 und
+t # k013
+v 0 _
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+e 0 2 sup
+e 1 2 sup
+e 3 2 reb
+e 4 3 und
+t # k014
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+e 4 3 sup
+t # k015
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 reb
+e 2 0 reb
+e 3 0 sup
+t # k016
+v 0 _
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 0 1 reb
+e 2 1 reb
+e 3 1 reb
+e 4 1 sup
+t # k017
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+e 4 3 und
+t # k018
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 5 sup
+e 1 2 reb
+e 2 0 sup
+e 3 5 sup
+e 4 5 sup
+t # k019
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 0 5 sup
+e 1 5 reb
+e 2 1 und
+e 3 5 sup
+e 4 3 add
+t # k020
+v 0 _
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+e 0 1 sup
+e 1 2 sup
+e 2 3 sup
+e 4 3 sup
+t # k021
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 sup
+e 1 0 und
+e 2 1 und
+e 3 2 sup
+t # k022
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 1 0 sup
+e 2 1 sup
+e 3 0 sup
+e 4 3 sup
+e 5 0 sup
+t # k023
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+e 4 3 sup
+t # k024
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 1 0 reb
+e 2 0 sup
+e 3 0 sup
+e 4 0 sup
+e 5 4 sup
+e 6 0 sup
+t # k025
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+e 0 4 reb
+e 1 0 sup
+e 2 4 sup
+e 3 2 sup
+t # k027
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 sup
+e 2 0 sup
+e 3 0 reb
+t # k029
+v 0 CC
+v 1 _
+v 2 _
+v 3 _
+e 1 0 reb
+e 2 1 und
+e 3 0 sup
+t # k031
+v 0 _
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+e 0 4 sup
+e 1 0 sup
+e 2 4 reb
+e 3 2 und
+e 5 4 sup
