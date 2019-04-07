@@ -1,0 +1,1333 @@
+t # b001
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 CC
+e 4 7 motivation_r
+e 1 4 concession_r
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 4 conjunction_m
+e 6 5 cause_r
+t # b002
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 CC
+e 4 7 motivation_r
+e 1 4 concession_r
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 4 conjunction_m
+e 6 5 cause_r
+t # b003
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 3 6 reason_r
+e 1 3 background_r
+e 2 1 unless_r
+e 4 6 concession_r
+e 5 6 condition_r
+t # b004
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 3 6 reason_r
+e 1 3 background_r
+e 2 1 unless_r
+e 4 6 concession_r
+e 5 6 condition_r
+t # b005
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 evidence_r
+e 5 1 reason_r
+e 4 5 background_r
+e 3 4 concession_r
+t # b006
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 1 reason_r
+e 4 5 concession_r
+t # b007
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 2 3 reason_r
+e 1 2 cause_r
+e 5 3 reason_r
+e 4 5 antithesis_r
+t # b008
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 2 5 reason_r
+e 1 2 concession_r
+e 3 2 reason_r
+e 4 3 joint_m
+t # b009
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 4 3 reason_r
+t # b010
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 restatement_r
+e 4 3 reason_r
+e 5 1 reason_r
+t # b011
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 4 1 reason_r
+e 2 4 concession_r
+e 3 4 condition_r
+t # b012
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+e 1 4 antithesis_r
+e 2 1 disjunction_m
+e 3 4 evidence_r
+e 5 4 conjunction_m
+t # b013
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 4 1 reason_r
+e 5 4 joint_m
+t # b014
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 4 1 reason_r
+e 2 4 concession_r
+e 3 4 evaluation
+e 5 4 joint_m
+e 6 4 list_m
+t # b015
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 5 3 elaboration_r
+e 4 5 antithesis_r
+e 6 1 reason_r
+e 7 6 joint_m
+t # b016
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 CC
+e 1 8 background_r
+e 2 1 purpose_r
+e 7 8 reason_r
+e 6 7 antithesis_r
+e 3 6 reason_r
+e 4 3 elaboration_r
+e 5 4 conjunction_m
+t # b017
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 2 1 condition_r
+e 5 1 reason_r
+e 3 5 concession_r
+e 4 3 conjunction_m
+e 6 5 interpretation_r
+t # b018
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 3 5 joint_m
+e 1 3 concession_r
+e 2 3 reason_r
+e 4 3 joint_m
+t # b019
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 4 6 reason_r
+e 1 4 concession_r
+e 2 1 joint_m
+e 3 4 reason_r
+e 5 6 reason_r
+t # b020
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 1 6 background_r
+e 2 1 contrast_m
+e 4 6 reason_r
+e 3 4 concession_r
+e 5 6 reason_r
+t # b021
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 2 1 reason_r
+e 4 1 reason_r
+e 3 4 cause_r
+t # b022
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 4 1 reason_r
+e 5 1 reason_r
+t # b023
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 reason_r
+e 2 1 joint_m
+e 5 3 reason_r
+e 4 5 reason_r
+t # b024
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 2 1 means_r
+e 3 1 reason_r
+e 5 3 restatement_r
+e 4 5 antithesis_r
+e 6 1 reason_r
+e 7 6 cause_r
+t # b025
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+v 6 _
+e 1 3 reason_r
+e 2 1 conjunction_m
+e 4 3 reason_r
+e 5 4 conjunction_m
+e 6 3 reason_r
+t # b026
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 5 1 reason_r
+e 2 5 concession_r
+e 3 5 cause_r
+e 4 3 disjunction_m
+e 6 1 reason_r
+e 7 6 conjunction_m
+t # b027
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 4 1 reason_r
+e 3 4 antithesis_r
+e 5 1 reason_r
+t # b028
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 1 reason_r
+e 4 3 elaboration_r
+e 5 3 elaboration_r
+t # b029
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 5 1 reason_r
+e 3 5 reason_r
+e 2 3 antithesis_r
+e 4 3 joint_m
+t # b030
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 4 1 reason_r
+t # b031
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 2 1 reason_r
+e 3 1 reason_r
+e 4 3 list_m
+t # b032
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 list_m
+e 5 1 elaboration_r
+e 4 5 condition_r
+t # b033
+v 1 CC
+v 2 _
+v 3 _
+e 2 1 reason_r
+e 3 1 reason_r
+t # b034
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 2 1 reason_r
+e 3 2 list_m
+e 5 1 reason_r
+e 4 5 condition_r
+e 6 5 concession_r
+t # b035
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 1 6 reason_r
+e 2 1 e
+e 3 2 e
+e 4 1 list_m
+e 5 1 list_m
+t # b036
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 4 1 reason_r
+e 5 4 e
+e 8 1 elaboration_r
+e 7 8 concession_r
+e 6 7 condition_r
+t # b037
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 2 list_m
+e 4 5 antithesis_r
+t # b038
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+e 3 1 reason_r
+e 2 3 cause_r
+e 4 3 list_m
+e 5 4 e
+e 7 3 list_m
+e 6 7 antithesis_r
+e 8 7 elaboration_r
+t # b039
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 2 1 reason_r
+e 3 2 reason_r
+e 4 2 list_m
+e 6 2 list_m
+e 5 6 concession_r
+e 7 6 e
+t # b040
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 4 3 reason_r
+e 5 2 list_m
+e 6 5 elaboration_r
+e 8 1 elaboration_r
+e 7 8 antithesis_r
+t # b041
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 2 1 purpose_r
+e 3 1 reason_r
+e 4 3 evaluation
+e 6 3 list_m
+e 5 6 reason_r
+e 7 6 purpose_r
+e 8 1 contrast_m
+e 9 8 reason_r
+t # b042
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+v 7 _
+v 8 _
+v 9 _
+e 3 6 background_r
+e 1 3 concession_r
+e 2 1 elaboration_r
+e 4 6 reason_r
+e 5 4 elaboration_r
+e 7 6 list_m
+e 8 7 elaboration_r
+e 9 8 conjunction_m
+t # b044
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 1 2 reason_r
+e 3 2 reason_r
+e 4 2 antithesis_r
+e 5 4 evidence_r
+e 6 5 list_m
+t # b045
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 CC
+v 9 _
+e 3 8 reason_r
+e 1 3 means_r
+e 2 3 antithesis_r
+e 4 3 list_m
+e 7 4 reason_r
+e 5 7 sameunit_r
+e 6 7 cause_r
+e 9 8 concession_r
+t # b046
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 1 5 background_r
+e 2 1 restatement_r
+e 4 5 reason_r
+e 3 4 concession_r
+t # b047
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+e 1 2 background_r
+e 3 2 joint_m
+e 4 3 conjunction_m
+e 5 2 joint_m
+t # b048
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 4 5 reason_r
+e 1 4 background_r
+e 3 4 concession_r
+e 2 3 reason_r
+t # b049
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 4 6 reason_r
+e 1 4 concession_r
+e 2 4 reason_r
+e 3 4 condition_r
+e 5 4 list_m
+t # b050
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+e 3 4 concession_r
+e 2 3 cause_r
+e 1 2 background_r
+e 5 4 list_m
+t # b051
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+e 3 4 concession_r
+e 2 3 cause_r
+e 1 2 background_r
+e 5 4 list_m
+t # b052
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 1 3 concession_r
+e 2 1 conjunction_m
+e 6 3 reason_r
+e 4 6 sameunit_r
+e 5 6 cause_r
+e 9 6 conjunction_m
+e 7 9 sameunit_r
+e 8 9 reason_r
+t # b053
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+v 6 _
+e 2 5 reason_r
+e 1 2 concession_r
+e 4 2 list_m
+e 3 4 cause_r
+e 6 5 elaboration_r
+t # b054
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+v 10 CC
+t # b055
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 1 2 background_r
+e 4 2 reason_r
+e 3 4 cause_r
+e 6 4 list_m
+e 5 6 antithesis_r
+t # b056
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 CC
+e 1 8 reason_r
+e 2 1 reason_r
+e 4 2 result_r
+e 3 4 circumstance_r
+e 5 8 concession_r
+e 6 5 conjunction_m
+e 7 8 reason_r
+t # b057
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 CC
+e 2 9 reason_r
+e 1 2 concession_r
+e 3 2 circumstance_r
+e 4 3 conjunction_m
+e 5 2 list_m
+e 6 5 condition_r
+e 7 9 sameunit_r
+e 8 9 background_r
+t # b058
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+v 10 _
+e 1 2 reason_r
+e 4 2 reason_r
+e 3 4 concession_r
+e 5 4 e
+e 6 4 sameunit_r
+e 7 6 purpose_r
+e 8 4 list_m
+e 9 8 reason_r
+e 10 4 list_m
+t # b059
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 CC
+e 1 7 reason_r
+e 2 1 cause_r
+e 4 1 list_m
+e 3 4 cause_r
+e 6 1 list_m
+e 5 6 concession_r
+t # b060
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 3 5 reason_r
+e 2 3 reason_r
+e 1 2 concession_r
+e 4 3 cause_r
+t # b061
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 2 1 reason_r
+e 4 1 reason_r
+e 3 4 concession_r
+t # b062
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 2 1 reason_r
+e 3 2 list_m
+e 4 3 reason_r
+e 5 3 reason_r
+e 6 5 conjunction_m
+e 7 5 reason_r
+t # b064
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 CC
+e 2 7 reason_r
+e 1 2 reason_r
+e 3 2 list_m
+e 4 2 list_m
+e 5 4 reason_r
+e 6 7 circumstance_r
+t # d01
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 2 elaboration_r
+e 4 5 antithesis_r
+t # d02
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 2 1 elaboration_r
+e 4 2 evidence_r
+e 3 4 evaluation
+e 6 1 reason_r
+e 5 6 concession_r
+t # d03
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 list_m
+e 4 3 concession_r
+e 5 2 list_m
+t # d04
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 1 2 reason_r
+e 6 2 reason_r
+e 3 6 concession_r
+e 4 3 cause_r
+e 5 6 circumstance_r
+t # d05
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 justify_r
+e 3 2 list_m
+e 5 2 list_m
+e 4 5 antithesis_r
+t # d06
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 2 list_m
+e 4 5 concession_r
+t # d07
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 2 list_m
+e 4 5 concession_r
+t # d08
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 concession_r
+e 2 1 conjunction_m
+e 4 3 motivation_r
+e 5 4 conjunction_m
+t # d09
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 elaboration_r
+e 5 1 elaboration_r
+e 4 5 condition_r
+t # d10
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 1 reason_r
+e 4 5 concession_r
+t # d11
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 motivation_r
+e 3 2 conjunction_m
+e 4 3 concession_r
+e 5 2 list_m
+t # d12
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 5 1 reason_r
+e 2 5 concession_r
+e 3 2 cause_r
+e 4 3 conjunction_m
+t # d13
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+v 6 _
+v 7 _
+e 2 5 background_r
+e 1 2 condition_r
+e 4 5 evidence_r
+e 3 4 circumstance_r
+e 7 5 elaboration_r
+e 6 7 antithesis_r
+t # d14
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 4 3 conjunction_m
+e 7 4 evidence_r
+e 5 7 sameunit_r
+e 6 7 circumstance_r
+t # d15
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 reason_r
+e 2 1 conjunction_m
+e 4 3 elaboration_r
+e 5 3 reason_r
+t # d16
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 2 3 concession_r
+e 1 2 background_r
+e 4 3 reason_r
+e 5 4 reason_r
+t # d17
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 reason_r
+e 2 1 list_m
+e 5 3 reason_r
+e 4 5 concession_r
+t # d18
+v 1 _
+v 2 CC
+v 3 _
+v 4 _
+v 5 _
+e 1 2 background_r
+e 4 2 reason_r
+e 3 4 concession_r
+e 5 4 list_m
+t # d19
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 reason_r
+e 2 1 elaboration_r
+e 5 3 reason_r
+e 4 5 antithesis_r
+t # d20
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 1 5 evidence_r
+e 2 5 concession_r
+e 3 2 reason_r
+e 4 2 conjunction_m
+t # d21
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 reason_r
+e 2 1 elaboration_r
+e 4 3 unless_r
+e 5 3 joint_m
+t # d22
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 reason_r
+e 2 1 conjunction_m
+e 5 3 reason_r
+e 4 5 concession_r
+t # d23
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 3 1 justify_r
+e 2 3 concession_r
+e 4 3 list_m
+e 5 4 conjunction_m
+t # k001
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 3 1 justify_r
+e 2 3 concession_r
+e 4 3 list_m
+e 5 4 conjunction_m
+t # k002
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+e 3 1 justify_r
+e 2 3 condition_r
+e 4 1 reason_r
+e 5 4 joint_m
+e 6 1 reason_r
+t # k003
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 2 3 reason_r
+e 1 2 background_r
+e 5 3 reason_r
+e 4 5 concession_r
+t # k004
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 5 3 list_m
+e 4 5 reason_r
+e 6 5 joint_m
+e 7 6 conjunction_m
+t # k006
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 CC
+e 5 8 reason_r
+e 2 5 concession_r
+e 1 2 condition_r
+e 3 2 disjunction_m
+e 4 3 conjunction_m
+e 6 5 list_m
+e 7 8 justify_r
+t # k007
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 list_m
+e 4 3 cause_r
+e 5 3 antithesis_r
+t # k008
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+e 1 3 condition_r
+e 2 3 cause_r
+e 5 3 interpretation_r
+e 4 5 concession_r
+t # k009
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 3 1 reason_r
+e 2 3 condition_r
+e 4 3 list_m
+e 5 4 conjunction_m
+e 7 3 list_m
+e 6 7 preparation_r
+e 8 7 antithesis_r
+e 9 7 joint_m
+t # k010
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 3 1 reason_r
+e 2 3 condition_r
+e 4 3 list_m
+e 5 4 conjunction_m
+e 7 3 list_m
+e 6 7 preparation_r
+e 8 7 antithesis_r
+e 9 7 joint_m
+t # k011
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 3 1 reason_r
+e 2 3 condition_r
+e 4 3 list_m
+e 5 4 conjunction_m
+e 7 3 list_m
+e 6 7 preparation_r
+e 8 7 antithesis_r
+e 9 7 joint_m
+t # k012
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 2 1 reason_r
+e 4 2 list_m
+e 3 4 cause_r
+e 6 2 list_m
+e 5 6 antithesis_r
+e 7 6 joint_m
+t # k013
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+e 1 4 reason_r
+e 3 1 list_m
+e 2 3 preparation_r
+e 8 4 elaboration_r
+e 7 8 solutionhood_r
+e 5 7 preparation_r
+e 6 7 antithesis_r
+t # k014
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 2 1 reason_r
+e 3 2 evidence_r
+e 4 2 sameunit_r
+e 5 1 reason_r
+e 6 1 antithesis_r
+e 7 6 reason_r
+t # k015
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+e 2 1 elaboration_r
+e 3 2 conjunction_m
+e 4 1 reason_r
+t # k016
+v 1 _
+v 2 _
+v 3 CC
+v 4 _
+v 5 _
+v 6 _
+e 1 3 antithesis_r
+e 2 1 e
+e 6 3 reason_r
+e 4 6 concession_r
+e 5 4 conjunction_m
+t # k017
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 2 1 reason_r
+e 3 2 conjunction_m
+e 5 2 list_m
+e 4 5 concession_r
+t # k018
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 1 6 reason_r
+e 3 1 evidence_r
+e 2 3 antithesis_r
+e 5 1 list_m
+e 4 5 antithesis_r
+t # k019
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+v 6 _
+e 1 4 justify_r
+e 3 1 justify_r
+e 2 3 concession_r
+e 6 4 joint_m
+e 5 6 reason_r
+t # k020
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 CC
+e 2 6 reason_r
+e 1 2 evidence_r
+e 3 2 restatement_r
+e 4 2 list_m
+e 5 4 antithesis_r
+t # k021
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 3 5 reason_r
+e 1 3 justify_r
+e 2 3 concession_r
+e 4 3 joint_m
+t # k022
+v 1 _
+v 2 _
+v 3 _
+v 4 CC
+v 5 _
+v 6 _
+v 7 _
+e 1 4 reason_r
+e 2 1 reason_r
+e 3 2 reason_r
+e 5 4 antithesis_r
+e 6 5 e
+e 7 4 elaboration_r
+t # k023
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 3 1 reason_r
+e 2 3 antithesis_r
+e 4 3 list_m
+e 5 3 list_m
+t # k024
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+v 8 _
+v 9 _
+e 2 1 antithesis_r
+e 3 1 reason_r
+e 4 3 restatement_r
+e 5 4 result_r
+e 6 4 sameunit_r
+e 7 3 list_m
+e 8 7 reason_r
+e 9 3 list_m
+t # k025
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+e 1 5 antithesis_r
+e 2 1 reason_r
+e 3 1 elaboration_r
+e 4 3 reason_r
+t # k027
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+v 6 _
+v 7 _
+e 3 1 reason_r
+e 2 3 antithesis_r
+e 4 3 contrast_m
+e 5 4 elaboration_r
+e 6 5 conjunction_m
+e 7 3 elaboration_r
+t # k029
+v 1 CC
+v 2 _
+v 3 _
+v 4 _
+v 5 _
+e 3 1 reason_r
+e 2 3 concession_r
+e 4 3 conjunction_m
+e 5 3 list_m
+t # k031
+v 1 _
+v 2 _
+v 3 _
+v 4 _
+v 5 CC
+v 6 _
+e 1 5 reason_r
+e 2 1 evidence_r
+e 4 1 list_m
+e 3 4 concession_r
+e 6 5 result_r

@@ -182,21 +182,28 @@ def main():
     """
     parser = argparse.ArgumentParser(description=description,
                                      formatter_class=RawTextHelpFormatter)
-    parser.add_argument('corpora_path', metavar='corpora', type=str, nargs='*',
+    parser.add_argument('corpora_path',
+                        metavar='corpora',
+                        type=str,
+                        nargs='*',
                         help='path to the corpora')
     #parser.add_argument('corpora_path', metaver='corpora', type=file, action='store', nargs='+')
-    parser.add_argument('output_filename', metavar='output', type=str, nargs=1,
+    parser.add_argument('output_filename',
+                        metavar='output',
+                        type=str,
+                        nargs=1,
                         help='path to the output filename')
-    parser.add_argument('', help='')
-    parser.add_argument('rst2dep', metavar='rst2dep', type=str, nargs=1,
-                        help="""path to the rst2dep.py script - to download it,
-                        please see https://github.com/amir-zeldes/rst2dep""")
+    parser.add_argument('rst2dep',
+                        metavar='rst2dep',
+                        type=str,
+                        nargs=1,
+                        help="""path to the rst2dep.py converter - to download it,
+                        see https://github.com/amir-zeldes/rst2dep""")
 
     args = parser.parse_args()
 
     # prepare and test all arguments
     # test existance of conversion script
-    print(args.corpora_path)
     test_rst2dep_exist(args.rst2dep[0])
     # test existance of rst_files
     rst_files = test_rst_files(args.corpora_path)

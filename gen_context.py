@@ -165,13 +165,20 @@ def main():
     description = "TODO : write it"
     parser = argparse.ArgumentParser(description=description,
                                      formatter_class=RawTextHelpFormatter)
-    parser.add_argument('graphs_file', metavar='graphs_files', type=str,
+    parser.add_argument('graphs_file',
+                        metavar='graphs_files',
+                        type=str,
                         help="""path to the file containing graphs in txt format,
                         here the type of the graph is not considered at all""")
-    parser.add_argument('output', metavar='output_path', type=str,
+    parser.add_argument('output',
+                        metavar='output_path',
+                        type=str,
                         help="""path to the file where u want to save the output context""")
-    parser.add_argument('output_dic', metavar="output_attribute_patterns", type=str,
-                        default="decode_patterns.json", help="""specify the output file
+    parser.add_argument('output_dic',
+                        metavar="output_attribute_patterns",
+                        type=str,
+                        default="decode_patterns.json",
+                        help="""specify the output file
                         for attribute / pattern dic saving""")
     # parser.add_argument('-r', metavar='--rst', type=str,
     #                     help='path to the file containing rst graphs in txt format')

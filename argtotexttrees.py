@@ -1,5 +1,7 @@
-'''Script to convert a set of argmicrotext xml structure to a unique file
-containing the txt representation'''
+'''
+Script to convert a set of argmicrotext xml structure to a unique file
+containing the txt representation
+'''
 
 # import the necessary packages
 import argparse
@@ -10,8 +12,8 @@ from xml.dom import minidom
 
 
 def find_prem(edges, rel):
-    """ from a set of edges and a relation, returns the premisse of the
-    relation
+    """
+    from a set of edges and a relation, returns the premisse of the relation
     """
     for edge in edges:
         if edge.attributes["id"].value == rel:
@@ -20,7 +22,8 @@ def find_prem(edges, rel):
 
 
 def get_adus_edges_cc(graphxml_path):
-    """from a xml_graph
+    """
+    from a xml_graph
     return adus and edges
     """
     edges_dic = {}
@@ -63,34 +66,42 @@ def get_adus_edges_cc(graphxml_path):
         return (adus, rel_list, cclaim)
 
 def write_txt(corpora, output_path):
-    """ produce txt representation of graph from corpora
+    """
+    produce txt representation of graph from corpora
     the format is the following :
     t # id
     v id label
     ....
     e idsrc idtrg label
     """
-    i = 0
+    i_txt = 0
+    corresp_ids = {}
     with open(output_path, "w") as output:
         for xmlgraph in corpora:
             id_name = os.path.basename(xmlgraph).replace("micro_", "").replace(".xml", "")
             (args, rels, cclaim) = get_adus_edges_cc(xmlgraph)
             output.write("t # "+str(id_name)+"\n")
             #output.write("t # "+str(i)+"\n")
+            i_arg = 0
             for arg in args:
+                corresp_ids[arg] = i_arg
                 if arg == cclaim:
-                    output.write("v "+arg+" CC"+"\n")
+                    output.write("v "+str(i_arg)+" CC"+"\n")
                 else:
-                    output.write("v "+arg+" _"+"\n")
+                    output.write("v "+str(i_arg)+" _"+"\n")
+                i_arg = i_arg+1
+
             for rel in rels:
-                output.write("e "+rel[0]+" "+rel[1]+" "+rel[2]+"\n")
+                output.write("e "+str(corresp_ids[rel[0]])+" "+str(corresp_ids[rel[1]])+" "+rel[2]+"\n")
 
             # increment txt id
-            i = i+1
+            i_txt = i_txt+1
 
 def test_args_files(corpora):
-    """ if a file is empty or is not an xml file; ignore it
-    and alert user that it's been ignored"""
+    """
+    if a file is empty or is not an xml file; ignore it and alert user that
+    it's been ignored
+    """
     good_corpora = []
     for file in corpora:
         if os.path.getsize(file) != 0 and file.endswith(".xml"):
@@ -103,7 +114,9 @@ def test_args_files(corpora):
     return good_corpora
 
 def test_output_file(output_file):
-    """ if outputfile already exist, alert user and exit """
+    """
+    if outputfile already exist, alert user and exit
+    """
     if os.path.exists(output_file):
         sys.exit("""output file already exist, please enter a new filename or
                  delete the existing file""")
@@ -111,7 +124,9 @@ def test_output_file(output_file):
         return output_file
 
 def main():
-    """ main function, recovers arguments and launches the conversion """
+    """
+    main function, recovers arguments and launches the conversion
+    """
 
     description = """ This script converts a set of .xml graphs to a unique .txt
     file containing the binary trees in the following format : \n
@@ -130,7 +145,7 @@ def main():
 
     args = parser.parse_args()
 
-    # prepare and text all arguments
+    # prepare and test all arguments
     args_xml_files = test_args_files(args.corpora_path)
     if len(args.output_filename) == 1:
         output_path = test_output_file(args.output_filename[0])
