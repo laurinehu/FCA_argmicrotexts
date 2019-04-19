@@ -16,7 +16,8 @@ def get_relations(dep_string):
     get list of relations from a string representing dependency structure
     """
     output = []
-    regexp_rels = r'(\d*).*(\d)\t(\w*)'
+    regexp_rels = r'(\d+).*\t(\d+)\t([\w|-]*)'
+
     if re.findall(regexp_rels, dep_string) is not None:
         for (src, trg, typ) in re.findall(regexp_rels, dep_string):
             output.append([src, trg, typ])
@@ -34,7 +35,6 @@ def get_and_del_from_trg(trg, rels):
     """
     from a target, finds a relation and delete from list
     """
-    rel = None
     for rel in rels:
         if int(rel[1]) == int(trg):
             outrel = rel
@@ -139,6 +139,7 @@ def write_txt(corpora, output_path, rst2dep_path):
         for rs3_file in corpora:
             # get txtid from filename
             output_name = rs3_file.replace(".rs3", ".txt")
+
             txt_id = os.path.basename(output_name)
             txt_id = txt_id.replace("micro_", "")
             txt_id = txt_id.replace(".txt", "")
@@ -147,25 +148,26 @@ def write_txt(corpora, output_path, rst2dep_path):
                 output = subprocess.check_output(['/usr/bin/python2.7', rst2dep_path, rs3_file],
                                                  stderr=subprocess.STDOUT)
                 output = output.decode("utf-8")
-                rels = get_relations(output)
-                cclaim = get_cc(rels)
-                ordered_rels = parcours(rels)
-                print(ordered_rels)
-                units = get_units(get_relations(output))
 
-            except subprocess.CalledProcessError as exception:
-                output = exception.output
+            except subprocess.CalledProcessError as e:
+                raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+
+
+            rels = get_relations(output)
+            cclaim = get_cc(rels)
+            ordered_rels = parcours(rels)
+            units = get_units(get_relations(output))
 
             # write in output file
             output_file.write("t # "+str(txt_id)+"\n")
             for unit in units:
-                print(unit)
                 if unit == cclaim:
                     output_file.write("v "+unit+" CC"+"\n")
                 else:
                     output_file.write("v "+unit+" _"+"\n")
             for rel in ordered_rels:
                 output_file.write("e "+rel[0]+" "+rel[1]+" "+rel[2]+"\n")
+            print(output_name+" is writen")
 
 def main():
     """
